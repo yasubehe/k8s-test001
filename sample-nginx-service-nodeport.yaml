@@ -5,6 +5,7 @@ metadata:
   labels:
     run: my-nginx
 spec:
+  type: NodePort
   ports:
   - name: "nginx-port"
     protocol: TCP
